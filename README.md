@@ -45,7 +45,6 @@ Nestlé 브랜드 웹사이트를 **정적 페이지(HTML/CSS/JS)** 로 리뉴�
 - **스토리/ESG 섹션**: 브랜드 가치 및 지속가능성 소개
 - **푸터**: 약관/개인정보/소셜 링크
 - **접근성 배려**: 시맨틱 마크업, 스킵 링크, 대체 텍스트, 명도 대비
-- **반응형**: 모바일 퍼스트, 주요 브레이크포인트(375/768/1200px)
 
 ---
 
@@ -108,7 +107,7 @@ start index.html
 
 - **GitHub Pages**  
   - Settings → Pages → Branch 선택 → 저장  
-  - 기본 도메인: `https://<username>.github.io/Renewal_project_Nestle/`
+  - 기본 도메인: `https://timcho19.github.io/Renewal_project_Nestle/`
 - **Vercel / Netlify**  
   - 새 프로젝트로 연결 → 루트 디렉토리 선택 → 배포  
   - 빌드 스텝 불필요(Framework 미사용)
