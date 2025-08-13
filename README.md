@@ -233,6 +233,14 @@ start index.html
 2. 확장 탭에서 **Live Server** 설치
 3. `index.html` 우클릭 → **Open with Live Server**
 
+
+### 3) 📚 개발 컨벤션 가이드
+프로젝트에서 사용하는 HTML, CSS, JavaScript 작성 규칙은 아래 문서를 참고하세요.
+
+- [HTML 컨벤션](./docs/guide_html.md)
+- [CSS 컨벤션](./docs/guide_css.md)
+- [JavaScript 컨벤션](./docs/guide_js.md)
+
 ---
 
 ## 7. 빌드 & 배포
