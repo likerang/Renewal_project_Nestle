@@ -1,8 +1,6 @@
 # Nestlé Website Renewal
 > HTML/CSS/JS 정적 웹사이트 리뉴얼 프로젝트
 
-![Nestlé](./images/hero.jpg)
-
 ## 목차
 - [프로젝트 개요](#프로젝트-개요)
 - [폴더 구조](#폴더-구조)
