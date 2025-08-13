@@ -35,10 +35,10 @@ Nestlé 브랜드 웹사이트를 **정적 페이지(HTML/CSS/JS)** 로 리뉴�
 | 조아랑 | FE | 아키텍처/폴더링<br>CI/CD(Vercel·Actions)<br>Supabase 스키마·RLS 정책<br>성능 최적화·코드리뷰 | [@alikerock](https://github.com/alikerock) | (예) dj.kim@example.com |
 
 ---
-
+```mermaid
 gantt
     title 네슬레 간트 차트
-    dateFormat  YYYY-MM-DD
+    dateFormat  2025-05-06
     excludes    weekends
 
 
@@ -62,6 +62,7 @@ gantt
 
     section 릴리스
     문서화·시연자료 :d1, 2025-05-06, 1d
+```
 
 ---
 
