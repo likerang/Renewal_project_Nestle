@@ -25,16 +25,43 @@ Nestlé 브랜드 웹사이트를 **정적 페이지(HTML/CSS/JS)** 로 리뉴�
 
 ---
 
-## 폴더 구조
-```
-/ (repo root)
-├─ index.html          # 진입점
-├─ css/                # 스타일 시트 (reset, layout, components 등)
-├─ js/                 # 스크립트 (nav, carousel, modal 등)
-├─ images/             # 이미지 자산 (logo, 제품, 배너)
-└─ video/              # 히어로/배경 영상 등
-```
-> 실제 리포지토리 내에는 `index.html`, `css/`, `js/`, `images/`, `video/` 폴더가 포함되어 있습니다.
+### 👥 팀원
+
+| 이름 | 역할 | 주요 담당 | GitHub | 연락 |
+| --- | --- | --- | --- | --- |
+| 장원석 | 팀장 · FE 리드 | CI/CD(Vercel·Actions)<br>Supabase 스키마·RLS 정책<br>성능 최적화·코드리뷰 | [@alikerock](https://github.com/alikerock) | (예) dj.kim@example.com |
+| 박경선 | FE | 포트폴리오 목록/상세<br>검색·필터·페이지네이션<br>React Query/SWR 상태관리<br>접근성 개선(a11y) | [@garam-dev](https://github.com/garam-dev) | garam@example.com |
+| 박연미 | FE · UI/디자인 | Figma 디자인 시스템 | [@jiwoo-park](https://github.com/jiwoo-park) | jiwoo@example.com |
+| 조아랑 | FE | 아키텍처/폴더링<br>CI/CD(Vercel·Actions)<br>Supabase 스키마·RLS 정책<br>성능 최적화·코드리뷰 | [@alikerock](https://github.com/alikerock) | (예) dj.kim@example.com |
+
+---
+
+gantt
+    title 네슬레 간트 차트
+    dateFormat  YYYY-MM-DD
+    excludes    weekends
+
+
+    section 기획/설계
+    자료조사·방향설정           :a1, 2025-04-07, 4d
+    스케치/스토리보드           :a2, after a1, 5d
+    발표자료                   :a3, after a2, 1d
+    스타일 가이드              :a4, after a3, 3d
+    Figma 와이어·디자인        :a5, after a4, 7d
+
+
+    section 구현(핵심)
+    컨벤션 구축 / 파트 분배     :b1, 2025-04-28, 2d
+    파트별 코딩           :b2, after b1, 7d
+
+
+    section 품질
+    SEO/OG·성능·접근성         :c1, 2025-05-04, 2d
+    테스트(E2E)·에러관측       :c2, after c1, 2d
+
+
+    section 릴리스
+    문서화·시연자료 :d1, 2025-05-06, 1d
 
 ---
 
@@ -57,6 +84,20 @@ Nestlé 브랜드 웹사이트를 **정적 페이지(HTML/CSS/JS)** 로 리뉴�
 - `/about.html` – 브랜드 스토리
 - `/sustainability.html` – ESG/CSV 활동
 - `/contact.html` – 문의/고객센터
+
+
+---
+
+## 폴더 구조
+```
+/ (repo root)
+├─ index.html          # 진입점
+├─ css/                # 스타일 시트 (reset, layout, components 등)
+├─ js/                 # 스크립트 (nav, carousel, modal 등)
+├─ images/             # 이미지 자산 (logo, 제품, 배너)
+└─ video/              # 히어로/배경 영상 등
+```
+> 실제 리포지토리 내에는 `index.html`, `css/`, `js/`, `images/`, `video/` 폴더가 포함되어 있습니다.
 
 ---
 
